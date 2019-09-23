@@ -1,2 +1,2 @@
 # cpp_polytech
-Vous devez avoir installé le CMake pour compiler ces fichiers.
+Il faut installer le CMake pour compiler ces fichiers.
