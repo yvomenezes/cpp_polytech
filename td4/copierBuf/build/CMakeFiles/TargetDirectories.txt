@@ -1,0 +1,3 @@
+/home/yvo/Documents/cpp_polytech/td4/copierBuf/build/CMakeFiles/rebuild_cache.dir
+/home/yvo/Documents/cpp_polytech/td4/copierBuf/build/CMakeFiles/copierBuf.dir
+/home/yvo/Documents/cpp_polytech/td4/copierBuf/build/CMakeFiles/edit_cache.dir
