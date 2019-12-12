@@ -1,5 +1,6 @@
 #include "complexe.hpp"
 #include <iostream>
+#include <fstream>
 #include <cmath>
 const Complexe constComplexes::i(0,1);
 
@@ -15,9 +16,22 @@ double Complexe::getPimg(){
 void Complexe::setPimg(const double &i){
   Complexe::pimg = i;
 }
-void Complexe::ecrireComplexe(){
+void Complexe::ecrireComplexe() const{
   std::cout << "("<< Complexe::preelle <<", " << Complexe::pimg << ")" << std::endl;
 }
+void Complexe::ecrireComplexe(std::ofstream &out) const{
+out << *this;
+}
+void Complexe::lireComplexe(){
+  std::cout << "Réelle: ";
+  std::cin >> Complexe::preelle;
+  std::cout << "Img: ";
+  std::cin >> Complexe::pimg;
+}
+void Complexe::lireComplexe(std::ifstream &in){
+  in >> *this;
+}
+
 double Complexe::rho() const{
   return std::sqrt(std::pow(Complexe::preelle, 2) + std::pow(Complexe::pimg, 2));
 }

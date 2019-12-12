@@ -6,17 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/yvo/Documents/cpp_polytech/td4/elobjets/complexe.cpp
-complexe.hpp
-/home/yvo/Documents/cpp_polytech/td4/elobjets/complexe.hpp
-iostream
--
-cmath
--
-
 /home/yvo/Documents/cpp_polytech/td4/elobjets/complexe.hpp
 iostream
 -
 fstream
 -
+
+/home/yvo/Documents/cpp_polytech/td4/elobjets/elobjets.cpp
+fstream
+-
+iostream
+-
+string
+-
+vector
+-
+complexe.hpp
+/home/yvo/Documents/cpp_polytech/td4/elobjets/complexe.hpp
 

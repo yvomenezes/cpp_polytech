@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yvo/Documents/cpp_polytech/td6/piletableau/PileTableau.hpp
+iostream
+-
+cassert
+-
+string
+-
+sstream
+-
+
+/home/yvo/Documents/cpp_polytech/td6/piletableau/main.cpp
+PileTableau.hpp
+/home/yvo/Documents/cpp_polytech/td6/piletableau/PileTableau.hpp
+rectangle.hpp
+/home/yvo/Documents/cpp_polytech/td6/piletableau/rectangle.hpp
+pile.hpp
+/home/yvo/Documents/cpp_polytech/td6/piletableau/pile.hpp
+iostream
+-
+string
+-
+
+/home/yvo/Documents/cpp_polytech/td6/piletableau/pile.hpp
+iostream
+-
+fstream
+-
+sstream
+-
+cassert
+-
+
+/home/yvo/Documents/cpp_polytech/td6/piletableau/rectangle.hpp
+iostream
+-
+

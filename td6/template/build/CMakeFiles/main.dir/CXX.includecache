@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yvo/Documents/cpp_polytech/td6/template/rectangle.cpp
+rectangle.hpp
+/home/yvo/Documents/cpp_polytech/td6/template/rectangle.hpp
+
+/home/yvo/Documents/cpp_polytech/td6/template/rectangle.hpp
+iostream
+-
+

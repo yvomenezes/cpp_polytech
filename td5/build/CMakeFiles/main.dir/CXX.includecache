@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yvo/Documents/cpp_polytech/td5/main.cpp
+pile.hpp
+/home/yvo/Documents/cpp_polytech/td5/pile.hpp
+iostream
+-
+fstream
+-
+
+/home/yvo/Documents/cpp_polytech/td5/pile.cpp
+pile.hpp
+/home/yvo/Documents/cpp_polytech/td5/pile.hpp
+
+/home/yvo/Documents/cpp_polytech/td5/pile.hpp
+iostream
+-
+fstream
+-
+

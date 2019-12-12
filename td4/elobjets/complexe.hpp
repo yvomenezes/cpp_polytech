@@ -55,7 +55,10 @@ public:
   void setPreelle(const double &r);
   double getPimg();
   void setPimg(const double &i);
-  void ecrireComplexe();
+  void ecrireComplexe() const;
+  void ecrireComplexe(std::ofstream &out) const;
+  void lireComplexe();
+  void lireComplexe(std::ifstream &in);
   double rho() const;
   double theta() const;
   Complexe conjugate() const;

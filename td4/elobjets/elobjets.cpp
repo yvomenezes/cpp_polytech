@@ -4,49 +4,38 @@
 #include <vector>
 #include "complexe.hpp"
 
-std::vector<Complexe> lireComplexe(){
-  int nombre;
-  double re, img;
-  std::cout << "Sasissez le nombre de complexes: ";
-  std::cin >> nombre;
-  std::vector<Complexe> complexes(nombre);
-  for(Complexe &c : complexes){
-    std::cout << "Reelle: ";
-    std::cin >> re;
-    std::cout << "Img: ";
-    int n, i;
-    std::cin >> img;
-    c.setPreelle(re);
-    c.setPimg(img);
-  }
-  return complexes;
-}
 
 int main(){
-std::vector<Complexe> complexes1 = lireComplexe();
-std::ofstream out("../fc");
-if(!out.is_open()){
-  perror("Error!");
-  exit(EXIT_FAILURE);
-}
+int nombre;
+std::cout << "Sasissez le nombre de complexes: ";
+std::cin >> nombre;
+
 std::ifstream in("../fc");
 if(!in.is_open()){
   perror("Error!");
   exit(EXIT_FAILURE);
 }
+std::ofstream out("../fout");
+if(!out.is_open()){
+  perror("Error!");
+  exit(EXIT_FAILURE);
+}
 
+std::vector<Complexe> complexes1(nombre);
+for(Complexe &c : complexes1){
+  c.lireComplexe(in);
+}
+in.close();
 for(Complexe &c : complexes1){
   // out.write((char *) &c, sizeof(Complexe));
-  out << c;
+  c.ecrireComplexe(out);
 }
 out.close();
 
-while(!in.eof()){
-  Complexe c;
-  // in.read((char *) &c, sizeof(Complexe));
-  in >> c;
-  c.ecrireComplexe();
-}
-in.close();
+// while(!in.eof()){
+//   Complexe c;
+//   // in.read((char *) &c, sizeof(Complexe));
+//   c.lireComplexe(in);
+// }
 return 0;
 }

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yvo/Documents/cpp_polytech/td5/un/complexe.cpp
+complexe.hpp
+/home/yvo/Documents/cpp_polytech/td5/un/complexe.hpp
+iostream
+-
+cmath
+-
+
+/home/yvo/Documents/cpp_polytech/td5/un/complexe.hpp
+iostream
+-
+fstream
+-
+
