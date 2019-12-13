@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yvo/Documents/cpp_polytech/DS1/Point.hpp
+ostream
+-
+cmath
+-
+sstream
+-
+
+/home/yvo/Documents/cpp_polytech/DS1/Polygone.cpp
+Polygone.hpp
+/home/yvo/Documents/cpp_polytech/DS1/Polygone.hpp
+cmath
+-
+vector
+-
+iostream
+-
+sstream
+-
+
+/home/yvo/Documents/cpp_polytech/DS1/Polygone.hpp
+Point.hpp
+/home/yvo/Documents/cpp_polytech/DS1/Point.hpp
+iostream
+-
+vector
+-
+
+/home/yvo/Documents/cpp_polytech/DS1/main.cpp
+Polygone.hpp
+/home/yvo/Documents/cpp_polytech/DS1/Polygone.hpp
+Point.hpp
+/home/yvo/Documents/cpp_polytech/DS1/Point.hpp
+iostream
+-
+vector
+-
+
