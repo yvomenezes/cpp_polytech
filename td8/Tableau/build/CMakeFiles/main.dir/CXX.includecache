@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yvo/Documents/cpp_polytech/td8/Tableau/IndexException.hpp
+exception
+-
+string
+-
+
+/home/yvo/Documents/cpp_polytech/td8/Tableau/IndexOverflow.hpp
+IndexException.hpp
+/home/yvo/Documents/cpp_polytech/td8/Tableau/IndexException.hpp
+
+/home/yvo/Documents/cpp_polytech/td8/Tableau/IndexUnderflow.hpp
+IndexException.hpp
+/home/yvo/Documents/cpp_polytech/td8/Tableau/IndexException.hpp
+
+/home/yvo/Documents/cpp_polytech/td8/Tableau/Tableau.hpp
+initializer_list
+-
+iostream
+-
+sstream
+-
+IndexException.hpp
+/home/yvo/Documents/cpp_polytech/td8/Tableau/IndexException.hpp
+IndexOverflow.hpp
+/home/yvo/Documents/cpp_polytech/td8/Tableau/IndexOverflow.hpp
+IndexUnderflow.hpp
+/home/yvo/Documents/cpp_polytech/td8/Tableau/IndexUnderflow.hpp
+
+/home/yvo/Documents/cpp_polytech/td8/Tableau/main.cpp
+Tableau.hpp
+/home/yvo/Documents/cpp_polytech/td8/Tableau/Tableau.hpp
+iostream
+-
+
